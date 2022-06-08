@@ -7,7 +7,7 @@ const getAllEnvelopes = (req, res) => {
 }
 
 const getEnvelope = (req, res) => {
-    res.json(envelopes[req.envlopeIndex])
+    res.json(envelopes[req.envelopeIndex])
 }
 
 const createEnvelope = (req, res) => {

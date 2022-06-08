@@ -1,27 +1,27 @@
 envelopes = [
     {
         id: 1,
-        name: groceries,
+        name: 'groceries',
         budget: 500
     },
     {
         id: 2,
-        name: electricity,
+        name: 'electricity',
         budget: 200
     },
     {
         id: 3,
-        name: beer,
+        name: 'beer',
         budget: 50
     },
     {
         id: 4,
-        name: phone,
+        name: 'phone',
         budget: 100
     },
     {
         id: 5,
-        name: internet,
+        name: 'internet',
         budget: 50
     }
 ]

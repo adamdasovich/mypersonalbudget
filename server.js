@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(cors({ origin: '*' }))
-app.use(morgan(dev));
+app.use(morgan('dev'));
 app.use(errorhandler())
 
 app.use('/api/envelopes', envelopes)

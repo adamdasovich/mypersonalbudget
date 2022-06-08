@@ -25,6 +25,6 @@ router.delete('/', envelopesController.deleteAllEnvelopes)
 router.delete('/:id', envelopesController.deleteEnvelope)
 
 // transfer funds
-router.put('/:id', envelopesController.transferMoney)
+router.put('/:id/transfer', envelopesController.transferMoney)
 
 module.exports = router;
